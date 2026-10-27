@@ -1,1 +1,1 @@
-# myKaraoke
+https://siarheikazakevich.github.io/myKaraoke/
