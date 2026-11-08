@@ -12,7 +12,7 @@ const songs = [
     title: "Demo Song",
     artist: "Karaoke Room",
     genre: "Demo",
-    audio: "/audio/demo.mp3",
+    audio: `${import.meta.env.BASE_URL}audio/demo.mp3`,
     lyrics: [
       { start: 0, end: 4, text: "Добро пожаловать в Karaoke Room" },
       { start: 4, end: 8, text: "Здесь музыка встречается с текстом" },
@@ -27,7 +27,7 @@ const songs = [
     title: "Пример второй песни",
     artist: "Твой исполнитель",
     genre: "Поп",
-    audio: "/audio/example.mp3",
+    audio: `${import.meta.env.BASE_URL}audio/example.mp3`,
     lyrics: [
       { start: 0, end: 4, text: "Это вторая демонстрационная песня" },
       { start: 4, end: 8, text: "Замени её своими данными" },
